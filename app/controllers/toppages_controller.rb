@@ -1,22 +1,13 @@
 class ToppagesController < ApplicationController
-
+  
   def index
-    if logged_in?
-    redirect_to 'toppages/home'
-    else
-    render root_path
-    end
+    redirect_to toppages_home_url if logged_in? # ログインしてたらリダイレクト
   end
   
   def home
-   if !logged_in? #ログインしていなければ
-    redirect_to root_path
-   else #ログインしてれば
-    render 'toppages/home'
-   end
-   @book = current_user.build
+   redirect_to root_url if !logged_in? # ログインしてなかったらリダイレクト
+   @book = current_user.books.build
    @books = current_user.books.order(id: :desc).page(params[:page])
   end
   
 end
-
