@@ -1,0 +1,14 @@
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-sm-4">
+      <%= form_with(model: @book, local: true) do |f| %>
+      <% end %>
+    </aside>
+    <div class="col-sm-8">
+    </div>
+  </div>
+<% else %>
+    <div class="align-text-bottom">
+      <h1>Boook List</h1>
+    </div>
+<% end %>

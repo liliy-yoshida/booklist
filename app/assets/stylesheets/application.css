@@ -1,0 +1,35 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+.navbar-brand {
+  background: url("https://sozai-good.com/download?id=84929&type=1&subnumber=0&extention=jpg") no-repeat left ;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+}
+
+img.book_photo {
+  height: 300px;
+  width: 1200px;
+  object-fit: cover;
+}
+
+body a:hover {
+  background-color:beige;
+}
