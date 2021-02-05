@@ -13,23 +13,88 @@
  *= require_tree .
  *= require_self
  */
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
+
 body {
-    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: #000;
 }
 
+
 .navbar-brand {
-  background: url("https://sozai-good.com/download?id=84929&type=1&subnumber=0&extention=jpg") no-repeat left ;
+  background: url("https://sozai-good.com/download?id=84929&type=1&subnumber=0&extention=jpg") ;
   background-size: contain;
   height: 60px;
   width: 60px;
 }
 
-img.book_photo {
-  height: 300px;
-  width: 1200px;
-  object-fit: cover;
+.nav-item {
+  font-size: 16px;
 }
 
-body a:hover {
-  background-color:beige;
+/* ログイン前の画面 */
+.visual {
+    background: url(https://www.pakutaso.com/shared/img/thumb/ELL75_yousyohondana20120620_TP_V.jpg) no-repeat center top;
+    height: 550px;
+    width: 1200px;
+}
+
+.visual p {
+    color: #FFF;
+    font-size: 20px;
+    font-family: serif;
+    padding: 200px 50px 50px;
+}
+
+.inner {
+    margin: 30px auto;
+    color: #7f6666;
+}
+
+/* ナビバー */
+.navbar-nav .nav-item {
+    font-size: 18px;
+    color: #000;
+}
+
+.navbar-nav .nav-item:hover {
+    color: #888;
+}
+
+/* ログイン後 */
+.home {
+    background: url(https://www.pakutaso.com/shared/img/thumb/ELL75_yousyohondana20120620_TP_V.jpg) no-repeat center top;
+    height: 550px;
+    width: 1200px;
+}
+
+.home p {
+    color: #FFF;
+    font-size: 20px;
+    font-family: serif;
+    padding: 200px 50px 50px;
+}
+
+.catch h3{
+    color: #7f6666;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+
+.booklist {
+    margin: 30px auto;
+}
+
+.newbook {
+     margin: 30px auto;
+}
+
+/* -booklist一覧ページ */
+.book_photo {
+    height: 550px;
+    width: 1200px;
 }

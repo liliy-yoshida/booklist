@@ -1,3 +1,5 @@
+<!--ログイン前のページ--!>
+
 <% if logged_in? %>
   <div class="row">
     <aside class="col-sm-4">
@@ -8,7 +10,31 @@
     </div>
   </div>
 <% else %>
-    <div class="align-text-bottom">
-      <h1>Boook List</h1>
+    <div class="visual">
+      <p class="catch">本に癒される空間</p>
     </div>
+    
+    <div class="inner">
+        <section>
+            <div>
+                <h3>Booklistの特徴</h3>
+                <p>読書の記録が簡単に</p>
+                <ul>
+                <li>読み終わった本や、気になる本を簡単に登録できます</li>
+                <li>本の感想や、自分だけが見られるメモを記録できます。</li>
+                </ul>
+            </div>
+        </section>
+        
+        
+        <section>
+            <div>
+                <h5>こんな人におすすめ！！</h5>
+                <ul>
+                <li>本が好き！</li>
+                <li>小説も、漫画も、エッセイも、ノンフィクションも、ビジネス書も好き！</li>
+                <li>人におすすめされた本のタイトルを忘れてしまう</li>
+                </ul>
+            </div>
+        </section>
 <% end %>

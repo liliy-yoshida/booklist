@@ -1,9 +1,13 @@
-<div class="align-text">
-    <h3>Welcome to BookList</h3>
+<div class="catch">
+<h3>Welcome to BookList</h3>
+</div>
+<div class="home">
+    <p class="catch">本に癒される空間</p>
 </div>
 
-<br>
-
-<%= link_to 'BookList', books_path, style: 'font-size:18px' %>
-<%= link_to 'New Book', new_book_path, style: 'font-size:18px' %>
-
+<div class="booklist">
+<%= link_to 'BookList', books_path %><p>:一覧をみる</p>
+</div>
+<div class="newbook">
+<%= link_to 'New Book', new_book_path %><p>:新しく作る</p>
+</div>
