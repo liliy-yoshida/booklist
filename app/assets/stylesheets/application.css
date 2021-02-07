@@ -22,23 +22,21 @@ body {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   color: #000;
+  background-color: #BDB76B;
 }
-
 
 .navbar-brand {
-  background: url("https://sozai-good.com/download?id=84929&type=1&subnumber=0&extention=jpg") ;
-  background-size: contain;
-  height: 60px;
-  width: 60px;
+    margin-left: 40px;
 }
-
 .nav-item {
   font-size: 16px;
+  margin-right: 20px;
 }
 
 /* ログイン前の画面 */
 .visual {
     background: url(https://www.pakutaso.com/shared/img/thumb/ELL75_yousyohondana20120620_TP_V.jpg) no-repeat center top;
+    margin: 0px auto;
     height: 550px;
     width: 1200px;
 }

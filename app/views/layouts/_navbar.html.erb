@@ -1,9 +1,9 @@
 <header class="mb-4">
   <nav class="navbar navbar-expand-sm navbar-default">
     <% if !logged_in? %> <!-- ログインしてたら -->
-      <a class="navbar-brand" href="/"></a>
+      <a class="navbar-brand" href="/"><i class="fas fa-book-open fa-4x"></i></a>
     <% else %> <!-- ログインしてなかったら -->
-      <a class="navbar-brand" href="/toppages/home"></a>
+      <a class="navbar-brand" href="/toppages/home"><i class="fas fa-book-open fa-4x"></i></a>
     <% end %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
