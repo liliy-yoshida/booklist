@@ -12,10 +12,11 @@
  *
  *= require_tree .
  *= require_self
- */
+ 
+ 
 @import "font-awesome-sprockets"
 @import "font-awesome";
-
+*/
 
 body {
   line-height: 1.7;
@@ -28,6 +29,7 @@ body {
 .navbar-brand {
     margin-left: 40px;
 }
+
 .nav-item {
   font-size: 16px;
   margin-right: 20px;
