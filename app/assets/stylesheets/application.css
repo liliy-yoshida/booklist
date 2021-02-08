@@ -26,6 +26,9 @@ body {
   background-color: #BDB76B;
 }
 
+body a:hover {
+    color: #CCCCCC;
+}
 .navbar-brand {
     margin-left: 40px;
 }
@@ -38,16 +41,16 @@ body {
 /* ログイン前の画面 */
 .visual {
     background: url(https://www.pakutaso.com/shared/img/thumb/ELL75_yousyohondana20120620_TP_V.jpg) no-repeat center top;
-    margin: 0px auto;
-    height: 550px;
-    width: 1200px;
+    height: 500px;
+    padding: 200px 100px 50px;
+    box-sizing: border-box;
 }
 
 .visual p {
     color: #FFF;
     font-size: 20px;
     font-family: serif;
-    padding: 200px 50px 50px;
+    padding: 200px 20px 50px;
 }
 
 .inner {
@@ -65,11 +68,18 @@ body {
     color: #888;
 }
 
+/* ログイン・新規作成*/
+.login, .signup{
+    color: #7f6666;
+    text-align: center;
+}
+
 /* ログイン後 */
 .home {
     background: url(https://www.pakutaso.com/shared/img/thumb/ELL75_yousyohondana20120620_TP_V.jpg) no-repeat center top;
-    height: 550px;
-    width: 1200px;
+    height: 500px;
+    padding: 200px 100px 50px;
+    box-sizing: border-box;
 }
 
 .home p {
@@ -94,7 +104,24 @@ body {
 }
 
 /* -booklist一覧ページ */
+.booklist {
+    color: #7f6666;
+}
+.new_book {
+    color: #7f6666;
+}
 .book_photo {
     height: 550px;
     width: 1200px;
 }
+
+/* -booklist新規作成ページ */
+.new {
+    text-align: center;
+    color: #7f6666
+}
+
+.field, .actions {
+    text-align: center;
+}
+

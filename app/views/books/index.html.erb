@@ -1,10 +1,10 @@
+<!--booklist一覧ページ--!>
+<img src="https://magazine.coconala.com/wp-content/uploads/2020/09/shutterstock_485255002-1.jpg" alt="本とコーヒー">
+
 <p id="notice"><%= notice %></p>
 
-<!--booklist一覧ページ--!>
-
-<img class="book_photo" src="https://www.pakutaso.com/shared/img/thumb/ELL75_yousyohondana20120620_TP_V.jpg" >
-
-<h1>Books</h1>
+<div class="booklist">
+<h1>Books</h1></div>
 
 <table>
   <thead>
@@ -33,7 +33,8 @@
   </tbody>
 </table>
 
-<br>
+<div class="new_book">
 <%= link_to 'New Book', new_book_path %>
 <!--home.html画面に戻る--!>
 <%= link_to 'Back', toppages_home_path %>
+</div>
